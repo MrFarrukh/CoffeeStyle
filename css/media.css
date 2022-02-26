@@ -1,0 +1,411 @@
+
+
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 718px;
+    }
+    .header__row__btn{
+        display: block;
+    }
+    .header__row{
+        flex-direction: column;
+        position: absolute;
+        background-color: #060628a1;
+        margin-left: -25px;
+        width: 100%;
+        position: fixed;
+        margin-top: -42px;
+    }
+    .header__row__li-a {
+        font-size: 28px;
+        line-height: 18px;
+        font-family: 'karla-r';
+        color: #ffffff;
+    }
+    .header__row__li {
+        list-style: none;
+        padding: 25px 0px 25px 0px;
+        margin: auto;
+    }
+    .header__row__li ahover{
+        text-decoration: underline;
+    }
+    .header__menu{
+        width: 743px;
+        position: absolute;
+        margin-top: -826px;
+        transition: all ease 0.5s;
+    }
+    .burger__btn{
+        margin-top: 387.5px;
+        position: absolute;
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+    }
+    .burger__btn__inside{
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        padding: 1px 10px 9px 10px;
+        background-color: #060628a1;
+    }
+    .header__row__btn img{
+        width: 35px;
+    }
+    .active{
+        margin-top: 0px;
+    }
+    .mugCoffee__container{
+        max-width: 470px;
+    }
+    .coffee__container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 82%;
+    }
+
+    .magazine__img {
+        display: flex;
+        width: 372px;
+        flex-wrap: wrap;
+    }
+    .magazine__img__flex {
+        display: flex;
+        flex-direction: inherit;
+        margin-left: 0px;
+        display: flex;
+        margin-top: 20px;
+    }
+    .magazine__img__flex img:last-child{
+        margin-top: 0;
+    }
+    .midBg2__input input {
+        padding: 18px 211px 18px 18px;
+        background-color: unset;
+        border: 1px solid #2F303E;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-family: 'karla-r';
+        height: 57px;
+    }
+    .midBg2__input a {
+        padding: 21px 29px;
+        font-size: 12px;
+        line-height: 18px;
+        background-color: #fff;
+        color: #000;
+        font-family: 'karla-r';
+        text-decoration: none;
+        height: 57px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+    .container{
+        max-width: 450px;
+    }
+    .burger__btn {
+        margin-top: 387.5px;
+        position: absolute;
+        width: 91%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+    }
+    .header__row__btn img {
+        width: 35px;
+    }
+    .mugCoffee__card  img{
+        width: 440px;
+    }
+    .coffee__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    .magazine__container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+    .magazine__img {
+        display: flex;
+        width: 275px;
+        flex-wrap: wrap;
+    }
+    .magazine__img__flex{
+        margin-left: -36px;
+    }
+    .magazine__img__flex img:last-child {
+        margin-top: 0;
+        margin-left: 18px;
+    }
+    .magazine__txt{
+        margin-top: 50px;
+    }
+    .midBg {
+        background-image: url(../img/banner-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+        margin-bottom: 100px;
+    }
+    .oppo__container{
+        width: 300px;
+    }
+    .oppo__container .oppo__box{
+        margin-top: 20px;
+    }
+    .midBg2__input input {
+        padding: 18px 176px 18px 18px;
+        background-color: unset;
+        border: 1px solid #2F303E;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-family: 'karla-r';
+        height: 57px;
+    }
+    .midBg2__input {
+        width: 375px;
+        margin: auto;
+        padding-bottom: 85px;
+    }
+    .midBg2__input input {
+        padding: 18px 106px 18px 18px;
+        background-color: unset;
+        border: 1px solid #2F303E;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-family: 'karla-r';
+        height: 50px;
+    }
+    .midBg2__input a {
+        padding: 17px 26px;
+        font-size: 12px;
+        line-height: 18px;
+        background-color: #fff;
+        color: #000;
+        font-family: 'karla-r';
+        text-decoration: none;
+        height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:425px){
+    .container {
+        max-width: 375px;
+    }
+    .header__row__btn img {
+        width: 30px;
+    }
+    .mugCoffee__card img {
+        width: 365px;
+    }
+    .coffee__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 71%;
+    }
+    .mugs {
+        text-align: center;
+        font-size: 9px;
+        line-height: 18px;
+        color: #1D1F2E;
+        letter-spacing: 2px;
+        font-family: 'karla-r';
+        margin-bottom: 100px;
+    }
+    .magazine__img__flex {
+        margin-left: -31px;
+    }
+    .midBg2__input {
+        width: 323px;
+        /* margin: auto; */
+        padding-bottom: 85px;
+    }
+    .midBg2__input input {
+        padding: 18px 55px 18px 18px;
+        background-color: unset;
+        border: 1px solid #2F303E;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-family: 'karla-r';
+        height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:375px) {
+    .container {
+        max-width: 325px;
+    }
+    .burger__btn {
+        margin-top: 387.5px;
+        position: absolute;
+        width: 87%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+    }   
+    .mugCoffee__card img {
+        width: 315px;
+    }
+    .coffee__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:320px){
+    .container {
+        max-width: 270px;
+    }
+    .header__menu {
+        width: 743px;
+        position: absolute;
+        margin-top: -836px;
+        transition: all ease 0.5s;
+    }
+    .header__row__btn img {
+        width: 25px;
+    }
+    .burger__btn__inside {
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        padding: 1px 7px 5px 7px;
+        background-color: #060628a1;
+    }
+    
+    .header__menu {
+        width: 743px;
+        position: absolute;
+        margin-top: -798px;
+        transition: all ease 0.5s;
+    }
+    .active{
+        margin-top: 0;
+    }
+    .header__row__li-a {
+        font-size: 23px;
+        line-height: 0px;
+        font-family: 'karla-r';
+        color: #ffffff;
+    }
+    .burger__btn {
+        margin-top: 368px;
+        width: 87%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+    }
+    .intro__box-h1 {
+        font-size: 40px;
+        line-height: 60px;
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'karla-r';
+    }
+    .intro__box-p {
+        font-size: 15px;
+        line-height: 30px;
+        color: #fff;
+        font-family: 'karla-r';
+        padding-top: 10px;
+        text-align: center;
+    }
+    .intro__box-4 {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'karla-r';
+        color: #fff;
+        text-align: center;
+        padding-top: 71px;
+    }
+    .intro__box {
+        padding-bottom: 97px;
+    }
+    .story {
+        margin-top: 78px;
+        margin-bottom: 76px;
+    }
+    .mugCoffee__card img {
+        width: 260px;
+    }
+    .coffee__card img{
+        width: 270px;
+    }
+    .coffee__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
